@@ -14,10 +14,10 @@ int main(int argc, char **argv)
 	printf("add_i(%d,%d)=%d\n",a,b,add_i(a,b));
 	printf("sub_i(%d,%d)=%d\n",a,b,sub_i(a,b));
 	printf("mul_i(%d,%d)=%d\n",a,b,mul_i(a,b));
-	printf("mul_f(%.3lf,%.3lf)=%.3lf\n",p,q,mul_f(p,q));
 
 	printf("add_f(%.3lf,%.3lf)=%.3lf\n",p,q,add_f(p,q));
 	printf("sub_f(%.3lf,%.3lf)=%.3lf\n",p,q,sub_f(p,q));
+	printf("mul_f(%.3lf,%.3lf)=%.3lf\n",p,q,mul_f(p,q));
 
 	return 0;
 }
