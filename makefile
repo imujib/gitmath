@@ -1,6 +1,6 @@
 
 PRG = mathlib.exe
-OBJS = obj/main.o obj/add.o obj/sub.o
+OBJS = obj/main.o obj/add.o obj/sub.o obj/mul.o
 
 CC = g++
 CFLAGS = 
