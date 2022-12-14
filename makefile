@@ -2,7 +2,7 @@
 PRG = mathlib.exe
 OBJS = obj/main.o obj/add.o
 
-CC = g++
+CC = gcc
 CFLAGS = 
 LFLAGS = 
 
@@ -17,7 +17,7 @@ bin obj:
 
 # Compile object files for executable
 obj/%.o: src/%.c | obj
-	${CC} -I./include ${CFLAGS} -c "$<" -o "$@"
+	${CC} ${CFLAGS} -c "$<" -o "$@"
 
 # Build the executable
 bin/${PRG}: ${OBJS} | bin
